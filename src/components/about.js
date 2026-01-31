@@ -6,7 +6,6 @@ import reliableIcon from '../Assets/serviceFour.svg';
 import professionalIcon from '../Assets/serviceFive.svg'; 
 import thoroughIcon from '../Assets/serviceTwo.svg'; 
 import camImage from '../Assets/Cam.png'; 
-import jacobImage from '../Assets/Jacob.png';
 import banner from '../Assets/banner.png';
 
 const features = [
@@ -34,12 +33,7 @@ const experts = [
   {
     img: camImage,
     name: 'CAM',
-    title: 'Co-Founder',
-  },
-  {
-    img: jacobImage,
-    name: 'JACOB',
-    title: 'Co-Founder',
+    title: 'Founder',
   },
 ];
 
@@ -100,9 +94,9 @@ function About() {
     <section className="p-8 bg-white text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">OUR EXPERTS</h2>
       <p className="text-lg md:text-xl text-center md:text-left text-gray-700 mb-24">
-        Crib Cleaners was founded in 2022 by Cam, and Jacob. The guys have a keen eye for detail and it shows in their work. Passionate about providing a quality service like no other, the Crib Cleaners work hard to maintain a professional, yet friendly, dynamic with their customers.
+        Crib Cleaners was founded in 2022 by Cam. Cam has a keen eye for detail and it shows in his work. Passionate about providing a quality service like no other, the Crib Cleaners work hard to maintain a professional, yet friendly, dynamic with their customers.
       </p>
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
+      <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-1 justify-items-center">
         {experts.map((expert, index) => (
           <div key={index} className="bg-white mx-auto shadow-lg rounded-lg overflow-hidden">
             <img src={expert.img} alt={expert.name} className="w-[100vw] h-60 object-contain" />

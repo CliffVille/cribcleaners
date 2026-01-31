@@ -1,5 +1,4 @@
 //src/pages/Body.js
-import React from 'react';
 import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import hero from '../Assets/hero.png';
@@ -23,7 +22,7 @@ import profile3 from '../Assets/Bob.jpg';
 import Before1 from '../Assets/Before1.png';
 import Before2 from '../Assets/Before2.png';
 import Before3 from '../Assets/Before3.png';
-import team from '../Assets/team.png';
+import team from '../Assets/Cam.png';
 
 const Body = () => {
   const settings = {
@@ -231,9 +230,9 @@ const Body = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <img src={team} alt="Team Photo" className="w-fill 2xl:ml-[50px] rounded-lg object-cover" />
           <div className="2xl:mr-[50px]">
-            <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">MEET THE GUYS</h2>
+            <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">MEET CAM</h2>
             <p className="text-lg md:text-xl mb-8 text-center">
-              Crib Cleaners was founded in 2022 by Andrew, Declan, Cam, and Jacob. The guys have a keen eye for detail and it shows in their work. The Crib Cleaners work hard to maintain a professional, yet friendly, dynamic with their customers.
+              Crib Cleaners was founded in 2022 by Cam. Cam has a keen eye for detail and it shows in his work. The Crib Cleaners work hard to maintain a professional, yet friendly, dynamic with their customers.
             </p>
             <Link to="/contact" className="px-3 py-3 flex justify-center items-center mx-auto w-[150px] bg-blue-500 text-white font-bold uppercase rounded hover:bg-blue-700 transition">
               Contact Us
