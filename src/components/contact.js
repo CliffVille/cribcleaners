@@ -1,6 +1,6 @@
 // src/pages/Contact.js
 import React, { useState } from 'react';
-import contactImage from '../Assets/contactbannerThree.png';
+import contactImage from '../Assets/Cam.png';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -45,8 +45,8 @@ const Contact = () => {
     <div>
 
       <section
-        className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] xl:h-[90vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(${contactImage})` }}
+        className="relative h-[300px] bg-cover bg-[center_25%]"
+        style={{ backgroundImage: `url(${contactImage})`}}
       >
         <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex justify-center md:justify-start items-center p-8">
           <h1 className="text-white text-3xl font-bold">CONTACT US</h1>
@@ -56,10 +56,6 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
           <div className="md:w-1/2 text-centermd:text-left">
             <h2 className="text-3xl text-center md:text-left font-bold mb-4">Get in touch</h2>
-            <p className="text-lg text-center md:text-left text-gray-700 mb-4">
-              <strong>Email Address</strong><br />
-              <a href="mailto:thecribcleaners@gmail.com" className="text-black-500 hover:text-blue-700 text-transform: uppercase font-bold">Jacob</a>
-            </p>
             <p className="text-lg text-center md:text-left text-gray-700 mb-4">
               <a href="mailto:camcribcleaners@gmail.com" className="text-black-500 hover:text-blue-700 text-transform: uppercase font-bold">Cam</a>
             </p>
