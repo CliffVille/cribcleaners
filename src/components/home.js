@@ -228,9 +228,9 @@ const Body = () => {
       </section>
       <section className="p-8 bg-[#1c274c] text-white">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <img src={team} alt="Team Photo" className="w-fill 2xl:ml-[50px] rounded-lg object-cover" />
+          <img src={team} alt="Cam Photo" className="w-fill 2xl:ml-[50px] rounded-lg object-cover" />
           <div className="2xl:mr-[50px]">
-            <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">MEET CAM</h2>
+            <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">MEET CAMERON DANYLCHUK</h2>
             <p className="text-lg md:text-xl mb-8 text-center">
               Crib Cleaners was founded in 2022 by Cam. Cam has a keen eye for detail and it shows in his work. The Crib Cleaners work hard to maintain a professional, yet friendly, dynamic with their customers.
             </p>

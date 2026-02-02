@@ -1,5 +1,5 @@
 // src/pages/Contact.js
-import React, { useState } from 'react';
+import { useState } from 'react';
 import contactImage from '../Assets/Cam.png';
 import emailjs from 'emailjs-com';
 
@@ -22,14 +22,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('service_sayeo9e', 'template_mm5apth', e.target, '7-zFdw7gEvp-PVtW1')
-    .then((result) => {
-      console.log('Email successfully sent:', result.text);
-      alert('Email sent successfully!');
-    }, (error) => {
-      console.error('Error sending email:', error.text);
-      alert('Failed to send email. Please try again later.');
-    });
+    emailjs.sendForm(
+      'service_w9h9g0p',
+      'template_vn8lkdq',
+      e.target,
+      'o2gpz--FtKrMkd15b'
+    )
   
  
     setFormData({
@@ -57,7 +55,7 @@ const Contact = () => {
           <div className="md:w-1/2 text-centermd:text-left">
             <h2 className="text-3xl text-center md:text-left font-bold mb-4">Get in touch</h2>
             <p className="text-lg text-center md:text-left text-gray-700 mb-4">
-              <a href="mailto:camcribcleaners@gmail.com" className="text-black-500 hover:text-blue-700 text-transform: uppercase font-bold">Cam</a>
+              <a href="mailto:camcribcleaners@gmail.com" className="text-black-500 hover:text-blue-700 text-transform: uppercase font-bold">Cameron Danylchuk </a>
             </p>
             <p className="text-lg text-center md:text-left text-gray-700 mb-4">
               <strong>Location</strong><br />
@@ -132,15 +130,15 @@ const Contact = () => {
         <h2 className="text-3xl font-bold mb-4">Our Location</h2>
         <div className="flex justify-center">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10411.19240890605!2d-123.1280792722793!3d49.2802227904589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486717f41ba2fb1%3A0xc6952794560a44aa!2sDowntown%20Vancouver%2C%20Vancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1718217519252!5m2!1sen!2sca"
-            width="600"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d666316.7885831394!2d-124.30975837970666!3d49.28018767735656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5462ce9005f9dfa5%3A0xce9c6c979ef4fca6!2sMetro%20Vancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1770015941117!5m2!1sen!2sca"
+            width="100%"
             height="450"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Map"
-          ></iframe>
+            title="Metro Vancouver Service Area"
+          />
         </div>
       </section>
     </div>

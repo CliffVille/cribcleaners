@@ -32,7 +32,7 @@ const features = [
 const experts = [
   {
     img: camImage,
-    name: 'CAM',
+    name: 'CAMERON DANYLCHUK',
     title: 'Founder',
   },
 ];
@@ -45,7 +45,7 @@ function About() {
         className="relative h-64 bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
           
-        <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex justify-start items-center p-8">
+        <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex md:justify-start justify-center items-center p-8">
           <h1 className="text-white text-3xl font-bold">ABOUT US</h1>
         </div>
       </section>
